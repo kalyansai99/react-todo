@@ -1,0 +1,74 @@
+body {
+    font-family: Arial;
+}
+.app-page {
+    background: #d3d3d3;
+    padding: 30px 15px;
+    width: 960px;
+    margin: 0 auto;
+}
+.header-wrapper {
+    padding: 15px 20px 15px 0;
+}
+.header-wrapper .label {
+    margin-right: 10px;
+}
+.header-wrapper .input-text {
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+}
+.header-wrapper .counter-container {
+    display: inline-block;
+    padding: 8px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 3px;
+    color: #888686;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 14px;
+}
+.keep-right {
+    float: right;
+    text-align: center;
+}
+.lists-wrapper .list-wrapper {
+    display: inline-block;
+    width: 300px;
+    vertical-align: top;
+    margin-right: 20px;
+    min-height: 200px;
+}
+
+.list-wrapper .header-wrapper {
+    background: #808080;
+    padding: 10px;
+    margin-bottom: 2px;
+}
+.list-wrapper .header-wrapper .head-text {
+    display: inline-block;
+    margin: 0;
+}
+.list-wrapper .header-wrapper .counter-container {
+    float: right;
+}
+.list-wrapper .list-container ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.list-wrapper .list-container .list-item {
+    list-style: none;
+    padding: 10px;
+    background-color: #fff;
+    margin-bottom: 2px;
+}
+
+.clearfix:after {
+    clear: both;
+    height: 0;
+    display: block;
+    visibility: hidden;
+    content: '';
+}
